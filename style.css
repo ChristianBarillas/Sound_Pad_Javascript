@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+body{
+    margin: 0 ;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+}
+
+.keys{
+
+    margin: 0 auto;
+
+    max-width: 500px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.key{
+  width: 100px;
+  height: 100px;
+  float: left;
+  transition: all 0.07s;
+  border-radius:20px;
+  background-color: rgb(0, 150, 236);
+  margin: 20px;
+
+}
+
+kbd{
+
+    display: block;
+    padding-top: 20px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+
+.playing{
+
+    box-shadow: 0 0 30px 0 rgba(0, 255, 64, 0.3);
+}
